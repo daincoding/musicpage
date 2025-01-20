@@ -1,9 +1,14 @@
+/* TODO: Check gradient for Headlines */
+
+:root {
+    --color-primary: #6E26FF;
+    --color-secondary: #E678F9;
+    --color-accent: #38F8B6;
+    --color-heading: #fff;
+    --color-bodytext:#949597;
+}
+
 *, *::before, *::after {
     box-sizing: border-box;
     font-size: 62.5%;
-}
-
-body {
-    margin: 10px;
-    background: gold;
 }
