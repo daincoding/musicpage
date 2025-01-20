@@ -240,3 +240,41 @@ background: #eb88ff;
         font-size: 1.5rem;
     }
 }
+
+/* Input */
+
+.inputs {
+    background: #06070B;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    color: var(--color-heading);
+    font-size: 2rem;
+    outline: 0;
+    padding: 1.5rem 3.5rem;
+}
+
+::placeholder {
+color:#86ffd5;
+}
+
+.input-group {
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    display: flex;
+}
+
+.input-group .inputs {
+    border: 0;
+    flex-grow: 1;
+    padding: 1.5rem 1rem;
+}
+
+.input-group .btn {
+    margin: 4px;
+}
+
+@media screen and (min-width: 1024px) {
+    .inputs {
+        font-size: 1.5rem;
+    }
+}
