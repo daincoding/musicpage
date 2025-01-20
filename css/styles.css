@@ -2,7 +2,7 @@
 
 :root {
     --color-primary: #6E26FF;
-    --color-secondary: #E678F9;
+    --color-secondary: #e35efa;
     --color-accent: #38F8B6;
     --color-heading: #fff;
     --color-body:#949597;
@@ -175,4 +175,68 @@ a {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Buttons */
+
+.btn {
+    border-radius: 40px;
+    border: 0;
+    cursor: pointer;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 1rem 0;
+    padding: 2rem 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.btn--primary {
+    background: var(--color-primary);
+    color: #fff;
+}
+
+.btn--primary:hover {
+    background: #874cfb;
+}
+
+.btn--secondary {
+    background: var(--color-secondary);
+    color: #fff;
+}
+
+.btn--secondary:hover {
+background: #eb88ff;
+}
+
+.btn--accent {
+    background: var(--color-accent);
+    color: #fff;
+}
+
+.btn--accent:hover {
+    background: #86ffd5;
+}
+
+.btn--block {
+    width: 100%;
+    display: inline-block;
+}
+
+.btn--outline {
+    background: #06070B;
+    color: var(--color-heading);
+    border: 2px solid var(--color-heading)
+}
+
+.btn--outline:hover {
+    background: var(--color-heading);
+    color: var(--color-body);
+}
+
+@media screen and (min-width: 1024px) {
+    .btn {
+        font-size: 1.5rem;
+    }
 }
