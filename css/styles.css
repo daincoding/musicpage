@@ -335,3 +335,42 @@ color:#86ffd5;
     height: 100px; 
     margin-left: 1rem; 
 }
+
+/* Media */
+
+.media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.media__spotify {
+    flex-grow: 1; 
+    max-width: 50%; 
+    min-width: 300px; 
+}
+
+.media-info {
+    display: flex;
+    flex-direction: column; 
+    flex-grow: 1;
+    max-width: 35%; 
+    min-width: 300px; 
+}
+
+.media__body {
+    margin: 0 2rem;
+}
+
+.media__image {
+    margin-top: 1rem;
+    align-self: center; 
+}
+
+.media__title {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
