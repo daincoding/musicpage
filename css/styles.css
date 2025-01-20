@@ -10,6 +10,9 @@
 
 *, *::before, *::after {
     box-sizing: border-box;
+}
+
+html {
     font-size: 62.5%;
 }
 
@@ -114,6 +117,7 @@ a {
 
 .badge--small {
     font-size: 1.6rem;
+    margin: 1.5rem 2rem;
 }
 
 @media screen and (min-width: 1024px) {
@@ -132,7 +136,7 @@ a {
     list-style: none;
     padding-left: 0;
     color: var(--color-heading);
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .list--inline .list__item {
@@ -277,4 +281,57 @@ color:#86ffd5;
     .inputs {
         font-size: 1.5rem;
     }
+}
+
+/* Cards */
+
+.card {
+    border-radius: 7px;
+    box-shadow: 0 0 20px 10px #505050;
+    overflow: hidden;
+}
+
+.card__header, .card__body {
+    padding: 2rem 3rem;
+}
+
+.card--primary .card__header {
+    background: var(--color-primary);
+    color: #fff;
+}
+
+.card--secondary .card__header {
+    background: var(--color-secondary);
+    color: #fff;
+    }
+
+/* Card Groups */
+
+.card__header {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+.cg__name {
+    margin: 0;
+    font-weight: 500;
+    font-size: 2.4rem;
+    color: #fff;
+}
+
+.cg__desc {
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-top: 0.5rem;
+}
+
+.cg_ava {
+    border-radius: 50%; 
+    object-fit: cover; 
+    width: 100px; 
+    height: 100px; 
+    margin-left: 1rem; 
 }
