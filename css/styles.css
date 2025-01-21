@@ -414,3 +414,21 @@ color:#86ffd5;
         grid-template-columns: 1fr 1fr;
     }
 }
+
+/* ABOUT ME */
+
+.aboutme {
+    padding: 3rem;
+}
+
+.image--responsive {
+    width: 100%;
+    object-fit: cover;
+    margin-left: 10rem;
+}
+
+#dain {
+ height: 90%;
+ width: 50%;
+ border-radius: 50px;
+}

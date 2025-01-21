@@ -1,0 +1,22 @@
+<div class="card">
+  <div class="grid grid--1x2">
+    <img
+      class="aboutme image--responsive"
+      id="dain"
+      src="images/dain_image.jpeg"
+      alt="dain Picture"
+    />
+    <blockquote class="quote">
+      <h2>ABOUT ME</h2>
+      <p class="quote__text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde similique,
+        nemo nulla quisquam perspiciatis beatae. Eius repellat sint architecto
+        asperiores?
+      </p>
+      <footer>
+        <h3 class="quote__name">Alexander Panske</h3>
+        <p class="quote__position">Sound Designer, Composer and Webdev</p>
+      </footer>
+    </blockquote>
+  </div>
+</div>
