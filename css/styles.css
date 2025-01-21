@@ -35,6 +35,7 @@ body {
 h1, h2, h3 {
     color: var(--color-heading);
     margin-bottom: 2rem;
+    line-height: 1.1;
 }
 
 h1 {
@@ -240,7 +241,7 @@ background: #eb88ff;
     display: inline-block;
 }
 
-.btn--streched {
+.btn--stretched {
     padding-left: 6rem;
     padding-right: 6rem;
 }
@@ -547,9 +548,16 @@ background: var(--color-background);
     background: var(--color-background-lighter);
 }
 
+.block--hero {
+    /*background-image: url(../images/dainSynth.png);*/
+    background: #000;
+    background-size: cover;
+}
+
 .block--skewed-left {
-    clip-path: polygon(0 0, 100% 0%, 100% 80%, 0 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%);
     padding-bottom: calc(var(--padding-vertical) +4rem);
+    min-height: 800px;
 }
 
 /* NAV */ 
@@ -609,5 +617,41 @@ background: var(--color-background);
 
     .nav__item {
         border: 0;
+    }
+}
+
+/* HERO */
+
+.hero__link {
+    margin-bottom: 5rem;
+    color:#06070B
+}
+
+.hero__desc {
+    margin-bottom: 5rem;
+}
+
+.hero__content {
+    margin-top: 50px;
+}
+
+.hero_img {
+    display: none;
+}
+
+
+@media screen and (min-width: 1028px) {
+    .hero {
+        padding-top: 0;
+    }
+    
+    .hero__content {
+        text-align: left;
+        align-self: center;
+    }
+
+    .hero_img {
+        display: inline-block;
+        
     }
 }
