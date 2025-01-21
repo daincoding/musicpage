@@ -229,6 +229,11 @@ background: #eb88ff;
     display: inline-block;
 }
 
+.btn--streched {
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
 .btn--outline {
     background: #06070B;
     color: var(--color-heading);
@@ -431,4 +436,46 @@ color:#86ffd5;
  height: 90%;
  width: 50%;
  border-radius: 50px;
+}
+
+/* CALLOUT */
+
+.callout {
+    padding: 4rem;
+    border-radius: 5px;
+}
+
+.callout--primary {
+    background: var(--color-primary);
+    color: #fff;
+}
+
+.callout__heading {
+    color: #fff;
+    margin-top: 0;
+    font-size: 3rem;
+}
+
+.callout .btn {
+justify-self: center;
+align-self: center;
+}
+
+.callout__content {
+    text-align: center;
+}
+
+@media screen and (min-width: 786px) {
+    .callout .grid--1x2 {
+        grid-template-columns: 1fr auto;
+    }
+    
+    .callout__content {
+        text-align: left;
+    }
+
+    .callout .btn {
+        justify-self: start;
+        margin: 0 2rem;
+    }
 }
