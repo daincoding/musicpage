@@ -6,10 +6,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <header>
-      <nav class="nav collapsible">
+      <nav class="nav collapsible>
         <a href="/"
           ><img src="/images/waiting_dain.png" alt="Logo" style="width: 50px"
         /></a>
@@ -28,30 +29,31 @@
     <section class="block block--hero block--skewed-left hero">
       <div class="container grid grid--1x2">
         <header class="block__header hero__content">
-          <h1 class="hero__headline">dain.</h1>
-          <p class="hero__desc">Music - Sound Design</p>
+          <h1 class="hero__headline" data-aos="fade-down">dain.</h1>
+          <p class="hero__desc" data-aos="fade-left">Music - Sound Design</p>
           <a
             href="https://open.spotify.com/artist/0WGxgRurCUtZPILs08KznX?si=W8w-cz4wTnOdY6GqOBkdGQ"
             class="btn btn--accent btn--stretched hero__link"
             target="_blank"
+            data-aos="zoom-in"
             >Spotify</a
           >
         </header>
-        <img class="hero_img" src="images/dainSynth.png" alt="" />
+        <img class="hero_img" src="images/dainSynth.png" alt="Hero Picture" data-aos="fade-right"/>
       </div>
     </section>
-    <section class="block block--secondary container">
+    <section class="block block--secondary container" data-aos="fade-down">
       <header class="block__header">
         <h2>Showcase</h2>
         <p>All the projects as an overview!</p>
       </header>
       <ul class="list showcase__block">
-        <li class="badge badge--primary">Synthwave</li>
-        <li class="badge badge--secondary">LoFi</li>
-        <li class="badge badge--primary">EDM</li>
-        <li class="badge badge--secondary">Game Music</li>
-        <li class="badge badge--primary">Bass House</li>
-        <li class="badge badge--secondary">Funky House</li>
+        <li class="badge badge--primary" data-aos="zoom-in">Synthwave</li>
+        <li class="badge badge--secondary" data-aos="zoom-in">LoFi</li>
+        <li class="badge badge--primary" data-aos="zoom-in">EDM</li>
+        <li class="badge badge--secondary" data-aos="zoom-in">Game Music</li>
+        <li class="badge badge--primary" data-aos="zoom-in">Bass House</li>
+        <li class="badge badge--secondary" data-aos="zoom-in">Funky House</li>
       </ul>
     </section>
     <section class="block container block--cards">
@@ -145,6 +147,7 @@
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
               loading="lazy"
               class="media__player"
+              data-aos="fade-right"
             ></iframe>
           </div>
         </div>
@@ -197,6 +200,7 @@
               allowfullscreen=""
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
               loading="lazy"
+              data-aos="fade-left"
             ></iframe>
           </div>
         </div>
@@ -213,6 +217,7 @@
               allowfullscreen=""
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
               loading="lazy"
+              data-aos="fade-right"
             ></iframe>
           </div>
         </div>
@@ -251,7 +256,7 @@
         </p>
       </div>
     </section>
-    <section class="block container">
+    <section class="block container" data-aos="zoom-in">
       <div class="card">
         <div class="grid grid--1x2">
           <img
@@ -330,5 +335,9 @@
       </div>
     </footer>
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
