@@ -330,7 +330,7 @@ color:#86ffd5;
     }
 
 .block--cards .grid {
-    gap: 8rem 4rem;
+    gap: 8rem 2rem;
 }
 
 .block--cards .card {
@@ -368,8 +368,8 @@ color:#86ffd5;
 .cg_ava {
     border-radius: 50%; 
     object-fit: cover; 
-    width: 100px; 
-    height: 100px; 
+    width: 100%; 
+    max-width: 70px;
     margin-left: 1rem; 
 }
 
@@ -669,6 +669,7 @@ background: var(--color-background);
 @media screen and (min-width: 1028px) {
     .hero {
         padding-top: 0;
+        overflow: hidden;
     }
     
     .hero__content {

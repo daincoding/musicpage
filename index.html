@@ -8,6 +8,327 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
+    <header>
+      <nav class="nav collapsible">
+        <a href="/"
+          ><img src="/images/waiting_dain.png" alt="Logo" style="width: 50px"
+        /></a>
+        <svg class="icon icon--white nav__toggle">
+          <use xlink:href="images/sprite.svg#menu"></use>
+        </svg>
+        <ul class="list nav__list collapsible__content">
+          <li class="nav__item"><a href="#">Overview</a></li>
+          <li class="nav__item"><a href="#">Music</a></li>
+          <li class="nav__item"><a href="#">Download</a></li>
+          <li class="nav__item"><a href="#">About Me</a></li>
+          <li class="nav__item"><a href="#">Blog</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="block block--hero block--skewed-left hero">
+      <div class="container grid grid--1x2">
+        <header class="block__header hero__content">
+          <h1 class="hero__headline">dain.</h1>
+          <p class="hero__desc">Music - Sound Design</p>
+          <a
+            href="https://open.spotify.com/artist/0WGxgRurCUtZPILs08KznX?si=W8w-cz4wTnOdY6GqOBkdGQ"
+            class="btn btn--accent btn--stretched hero__link"
+            target="_blank"
+            >Spotify</a
+          >
+        </header>
+        <img class="hero_img" src="images/dainSynth.png" alt="" />
+      </div>
+    </section>
+    <section class="block block--secondary container">
+      <header class="block__header">
+        <h2>Showcase</h2>
+        <p>All the projects as an overview!</p>
+      </header>
+      <ul class="list showcase__block">
+        <li class="badge badge--primary">Synthwave</li>
+        <li class="badge badge--secondary">LoFi</li>
+        <li class="badge badge--primary">EDM</li>
+        <li class="badge badge--secondary">Game Music</li>
+        <li class="badge badge--primary">Bass House</li>
+        <li class="badge badge--secondary">Funky House</li>
+      </ul>
+    </section>
+    <section class="block container block--cards">
+      <div class="grid grid--1x3">
+        <div class="cg">
+          <div class="card card--primary">
+            <header class="card__header">
+              <div class="cg__info">
+                <!-- Grouped left content -->
+                <h3 class="cg__name">90 Miles</h3>
+                <span class="cg__desc">Duo Project</span>
+                <span class="badge badge--secondary badge--small"
+                  >Funk / EDM</span
+                >
+              </div>
+              <img src="images/dain_herz.png" alt="Test" class="cg_ava" />
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">Item 1</li>
+                <li class="list__item">Item 2</li>
+                <li class="list__item">Item 3</li>
+              </ul>
+              <button class="btn btn--outline btn--block">Spotify</button>
+            </div>
+          </div>
+        </div>
+        <div class="cg">
+          <div class="card card--secondary">
+            <header class="card__header">
+              <div class="cg__info">
+                <!-- Grouped left content -->
+                <h3 class="cg__name">90 Miles</h3>
+                <span class="cg__desc">Duo Project</span>
+                <span class="badge badge--primary badge--small"
+                  >Funk / EDM</span
+                >
+              </div>
+              <img src="images/dain_herz.png" alt="Test" class="cg_ava" />
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">Item 1</li>
+                <li class="list__item">Item 2</li>
+                <li class="list__item">Item 3</li>
+              </ul>
+              <button class="btn btn--outline btn--block">Spotify</button>
+            </div>
+          </div>
+        </div>
+        <div class="cg">
+          <div class="card card--primary">
+            <header class="card__header">
+              <div class="cg__info">
+                <!-- Grouped left content -->
+                <h3 class="cg__name">90 Miles</h3>
+                <span class="cg__desc">Duo Project</span>
+                <span class="badge badge--secondary badge--small"
+                  >Funk / EDM</span
+                >
+              </div>
+              <img src="images/dain_herz.png" alt="Test" class="cg_ava" />
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">Item 1</li>
+                <li class="list__item">Item 2</li>
+                <li class="list__item">Item 3</li>
+              </ul>
+              <button class="btn btn--outline btn--block">Spotify</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="block container">
+      <header class="block__header">
+        <h2>Showcase</h2>
+        <p>All the projects as an overview!</p>
+      </header>
+      <article class="grid grid--1x2 showcase--article">
+        <div class="media">
+          <div class="media__spotify">
+            <iframe
+              style="border-radius: 12px"
+              src="https://open.spotify.com/embed/artist/0WGxgRurCUtZPILs08KznX?utm_source=generator&theme=0"
+              width="100%"
+              height="352"
+              frameborder="0"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+              class="media__player"
+            ></iframe>
+          </div>
+        </div>
+        <div class="media-info">
+          <div class="media__image">
+            <svg class="icon icon--primary">
+              <use xlink:href="images/sprite.svg#wordpress"></use>
+            </svg>
+          </div>
+          <div class="media__body">
+            <h3 class="media__title">dain.</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta aut
+              expedita perferendis vel perspiciatis, dolorum quidem neque alias
+              necessitatibus, totam iste provident officiis nisi voluptate?
+            </p>
+            <a href="#" class="link-arrow">TWITCH</a>
+            <a href="#" class="link-arrow">SPOTIFY</a>
+            <a href="#" class="link-arrow">YouTube</a>
+          </div>
+        </div>
+      </article>
+      <article class="grid grid--1x2 showcase--article">
+        <div class="media-info">
+          <div class="media__image">
+            <svg class="icon icon--primary">
+              <use xlink:href="images/sprite.svg#wordpress"></use>
+            </svg>
+          </div>
+          <div class="media__body">
+            <h3 class="media__title">dain.</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta aut
+              expedita perferendis vel perspiciatis, dolorum quidem neque alias
+              necessitatibus, totam iste provident officiis nisi voluptate?
+            </p>
+            <a href="#" class="link-arrow">TWITCH</a>
+            <a href="#" class="link-arrow">SPOTIFY</a>
+            <a href="#" class="link-arrow">YouTube</a>
+          </div>
+        </div>
+        <div class="media">
+          <div class="media__spotify">
+            <iframe
+              style="border-radius: 12px"
+              src="https://open.spotify.com/embed/artist/1PclBjYMDv5llwo1JmTooN?utm_source=generator"
+              width="100%"
+              height="352"
+              frameborder="0"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </article>
+      <article class="grid grid--1x2 showcase--article">
+        <div class="media">
+          <div class="media__spotify">
+            <iframe
+              style="border-radius: 12px"
+              src="https://open.spotify.com/embed/artist/3dNmdZN1skt8fVuLMDECwl?utm_source=generator"
+              width="100%"
+              height="352"
+              frameborder="0"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+        <div class="media-info">
+          <div class="media__image">
+            <svg class="icon icon--primary">
+              <use xlink:href="images/sprite.svg#wordpress"></use>
+            </svg>
+          </div>
+          <div class="media__body">
+            <h3 class="media__title">dain.</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta aut
+              expedita perferendis vel perspiciatis, dolorum quidem neque alias
+              necessitatibus, totam iste provident officiis nisi voluptate?
+            </p>
+            <a href="#" class="link-arrow">TWITCH</a>
+            <a href="#" class="link-arrow">SPOTIFY</a>
+            <a href="#" class="link-arrow">YouTube</a>
+          </div>
+        </div>
+      </article>
+    </section>
+    <section class="block block--primary block--skewed-left">
+      <header class="block__header block-download__header">
+        <h2>DOWNLOAD AND SOCIALS</h2>
+      </header>
+      <div class="container grid grid--1x2 download">
+        <img class="download__image" src="images/DL.png" alt="Download Icon" />
+        <p class="download__p">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus
+          culpa nesciunt dolorum alias labore reprehenderit maxime aspernatur
+          est cupiditate. Excepturi!<br />
+          <a href="#" class="link-arrow">BandCamp</a>
+          <a href="#" class="link-arrow">KoFi</a>
+        </p>
+      </div>
+    </section>
+    <section class="block container">
+      <div class="card">
+        <div class="grid grid--1x2">
+          <img
+            class="aboutme image--responsive"
+            id="dain"
+            src="images/dain_image.jpeg"
+            alt="dain Picture"
+          />
+          <blockquote class="quote">
+            <h2>ABOUT ME</h2>
+            <p class="quote__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+              similique, nemo nulla quisquam perspiciatis beatae. Eius repellat
+              sint architecto asperiores?
+            </p>
+            <footer>
+              <h3 class="quote__name">Alexander Panske</h3>
+              <p class="quote__position">Sound Designer, Composer and Webdev</p>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+    <footer class="block block--primary footer">
+      <div class="container grid footer__sections">
+        <section class="collapsible collapsible--expanded footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Legal</h2>
+            <svg class="icon icon--white collapsible__arrow">
+              <use xlink:href="images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">Impressum</a></li>
+              <li><a href="#">Contact / Mail</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Socials</h2>
+            <svg class="icon icon--white collapsible__arrow">
+              <use xlink:href="images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">Twitch</a></li>
+              <li><a href="#">Bluesky</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">YouTube</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Downloads</h2>
+            <svg class="icon icon--white collapsible__arrow">
+              <use xlink:href="images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">KoFi</a></li>
+              <li><a href="#">Bandcamp</a></li>
+              <li><a href="#">Amazon</a></li>
+              <li><a href="#">Apple Music</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="footer__brand">
+          <img class="footer__img" src="images/waiting_dain.png" alt="" />
+          <p class="footer__copyright">Made with &#60;3 by dain.</p>
+        </section>
+      </div>
+    </footer>
     <script src="js/main.js"></script>
   </body>
 </html>
