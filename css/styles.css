@@ -587,7 +587,7 @@ background: var(--color-background);
 }
 
 .block--skewed-left {
-    clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 95%, 0 100%);
     padding-bottom: calc(var(--padding-vertical) +4rem);
     min-height: 800px;
 }
