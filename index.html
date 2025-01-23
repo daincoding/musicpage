@@ -11,22 +11,25 @@
   <body>
     <header>
       <nav class="nav collapsible">
-        <a href="/"
-          ><img src="/images/waiting_dain.png" alt="Logo" style="width: 50px"
+        <a href="index.html"
+          ><img
+            class="nav__logo"
+            src="/images/dainLogo--small--purplegradiant.png"
+            alt="Logo"
+            style="width: 100px"
         /></a>
         <svg class="icon icon--white nav__toggle">
           <use xlink:href="images/sprite.svg#menu"></use>
         </svg>
         <ul class="list nav__list collapsible__content">
-          <li class="nav__item"><a href="#">Overview</a></li>
-          <li class="nav__item"><a href="#">Music</a></li>
-          <li class="nav__item"><a href="#">Download</a></li>
-          <li class="nav__item"><a href="#">About Me</a></li>
-          <li class="nav__item"><a href="#">Blog</a></li>
+          <li class="nav__item"><a href="#overview">Overview</a></li>
+          <li class="nav__item"><a href="#music">Music</a></li>
+          <li class="nav__item"><a href="#download">Download</a></li>
+          <li class="nav__item"><a href="#about">About Me</a></li>
         </ul>
       </nav>
     </header>
-    <section class="block block--hero block--skewed-left hero">
+    <section id="hero" class="block block--hero block--skewed-left hero">
       <div class="container grid grid--1x2">
         <header class="block__header hero__content">
           <h1 class="hero__headline" data-aos="fade-down">dain.</h1>
@@ -47,9 +50,13 @@
         />
       </div>
     </section>
-    <section class="block block--secondary container" data-aos="fade-down">
+    <section
+      id="overview"
+      class="block block--secondary container"
+      data-aos="fade-down"
+    >
       <header class="block__header">
-        <h2>Showcase</h2>
+        <h2>Overview</h2>
         <p>All the projects as an overview!</p>
       </header>
       <ul class="list showcase__block">
@@ -74,15 +81,23 @@
                   >Funk / EDM</span
                 >
               </div>
-              <img src="images/dain_herz.png" alt="Test" class="cg_ava" />
+              <img
+                src="images/90 Miles New Logo White Background Cut.png"
+                alt="Test"
+                class="cg_ava"
+              />
             </header>
             <div class="card__body">
               <ul class="list list--tick">
-                <li class="list__item">Item 1</li>
-                <li class="list__item">Item 2</li>
-                <li class="list__item">Item 3</li>
+                <li class="list__item">18 Released Songs</li>
+                <li class="list__item">2 Contest Wins</li>
+                <li class="list__item">Over 10 Million Streams</li>
               </ul>
-              <button class="btn btn--outline btn--block">Spotify</button>
+              <a
+                href="https://open.spotify.com/artist/1PclBjYMDv5llwo1JmTooN?si=T8QgpNwKTU2vulW88fJzcw"
+                target="_blank"
+                ><button class="btn btn--outline btn--block">Spotify</button></a
+              >
             </div>
           </div>
         </div>
@@ -91,21 +106,30 @@
             <header class="card__header">
               <div class="cg__info">
                 <!-- Grouped left content -->
-                <h3 class="cg__name">90 Miles</h3>
-                <span class="cg__desc">Duo Project</span>
+                <h3 class="cg__name">dain.</h3>
+                <span class="cg__desc">MAIN PROJECT</span>
                 <span class="badge badge--primary badge--small"
-                  >Funk / EDM</span
+                  >Synthwave / LoFi</span
                 >
               </div>
-              <img src="images/dain_herz.png" alt="Test" class="cg_ava" />
+              <img
+                src="images/dain_image_small.png"
+                alt="Test"
+                class="cg_ava"
+              />
             </header>
             <div class="card__body">
               <ul class="list list--tick">
-                <li class="list__item">Item 1</li>
-                <li class="list__item">Item 2</li>
-                <li class="list__item">Item 3</li>
+                <li class="list__item">Main Project</li>
+                <li class="list__item">29 Released Songs</li>
+                <li class="list__item">Over 1 Million Streams</li>
+                <li class="list__item">Game OST Coreborn</li>
               </ul>
-              <button class="btn btn--outline btn--block">Spotify</button>
+              <a
+                href="https://open.spotify.com/artist/0WGxgRurCUtZPILs08KznX?si=W8w-cz4wTnOdY6GqOBkdGQ"
+                target="_blank"
+                ><button class="btn btn--outline btn--block">Spotify</button></a
+              >
             </div>
           </div>
         </div>
@@ -114,30 +138,34 @@
             <header class="card__header">
               <div class="cg__info">
                 <!-- Grouped left content -->
-                <h3 class="cg__name">90 Miles</h3>
-                <span class="cg__desc">Duo Project</span>
+                <h3 class="cg__name">Toyou</h3>
+                <span class="cg__desc">Club</span>
                 <span class="badge badge--secondary badge--small"
-                  >Funk / EDM</span
+                  >BassHouse/ EDM</span
                 >
               </div>
-              <img src="images/dain_herz.png" alt="Test" class="cg_ava" />
+              <img src="images/toyou_ava.png" alt="Test" class="cg_ava" />
             </header>
             <div class="card__body">
               <ul class="list list--tick">
-                <li class="list__item">Item 1</li>
-                <li class="list__item">Item 2</li>
-                <li class="list__item">Item 3</li>
+                <li class="list__item">STOPPED 2020</li>
+                <li class="list__item">4 Releases</li>
+                <li class="list__item">Over 700k Streams</li>
               </ul>
-              <button class="btn btn--outline btn--block">Spotify</button>
+              <a
+                href="https://open.spotify.com/artist/3dNmdZN1skt8fVuLMDECwl?si=4cnRC5-bTkSu1dQ5Kl9Ekw"
+                target="_blank"
+                ><button class="btn btn--outline btn--block">Spotify</button></a
+              >
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="block container">
+    <section id="music" class="block container">
       <header class="block__header">
-        <h2>Showcase</h2>
-        <p>All the projects as an overview!</p>
+        <h2>Music Showcase</h2>
+        <p>All my released Music with different Projects</p>
       </header>
       <article class="grid grid--1x2 showcase--article">
         <div class="media">
@@ -159,19 +187,57 @@
         <div class="media-info">
           <div class="media__image">
             <svg class="icon icon--primary">
-              <use xlink:href="images/sprite.svg#wordpress"></use>
+              <use xlink:href="images/sprite.svg#Out_line"></use>
             </svg>
           </div>
           <div class="media__body">
             <h3 class="media__title">dain.</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta aut
-              expedita perferendis vel perspiciatis, dolorum quidem neque alias
-              necessitatibus, totam iste provident officiis nisi voluptate?
+              Starting with LoFi, "dain." discovered recently his love to
+              Synthwave, carving out his own path in the genre. His music
+              embraces a wide variety of moods, from chill and dreamy to
+              energetic, happy, or even melancholic. While Synthwave is now his
+              primary focus, he occasionally returns to LoFi when inspiration
+              strikes, blending styles to create tracks that resonate with
+              listeners. Music to chill, dream and relax. Free your mind. Always
+              stay tuned - there is so much more to come!
             </p>
-            <a href="#" class="link-arrow">TWITCH</a>
-            <a href="#" class="link-arrow">SPOTIFY</a>
-            <a href="#" class="link-arrow">YouTube</a>
+            <a
+              href="https://www.twitch.tv/dain_sounds"
+              class="link-arrow"
+              target="_blank"
+              >TWITCH</a
+            >
+            <a
+              href="https://open.spotify.com/artist/0WGxgRurCUtZPILs08KznX?si=Zm3_WC79RQO0-KbtfeJffQ"
+              class="link-arrow"
+              target="_blank"
+              >SPOTIFY</a
+            >
+            <a
+              href="https://youtube.com/playlist?list=PLz8nGTKf9WdJw3rNNsgMJ2QRb4l7ibA7c&si=NTQFwN00OB6vW8eD"
+              class="link-arrow"
+              target="_blank"
+              >YouTube</a
+            >
+            <a
+              href="https://bsky.app/profile/dainsounds.nohit.club"
+              class="link-arrow"
+              target="_blank"
+              >Bluesky</a
+            >
+            <a
+              href="https://www.instagram.com/dain.sounds/"
+              class="link-arrow"
+              target="_blank"
+              >Instagram</a
+            >
+            <a
+              href="https://dainsounds.bandcamp.com/"
+              class="link-arrow"
+              target="_blank"
+              >BandCamp</a
+            >
           </div>
         </div>
       </article>
@@ -179,19 +245,27 @@
         <div class="media-info">
           <div class="media__image">
             <svg class="icon icon--primary">
-              <use xlink:href="images/sprite.svg#wordpress"></use>
+              <use xlink:href="images/sprite.svg#Out_Line"></use>
             </svg>
           </div>
           <div class="media__body">
-            <h3 class="media__title">dain.</h3>
+            <h3 class="media__title">90 Miles</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta aut
-              expedita perferendis vel perspiciatis, dolorum quidem neque alias
-              necessitatibus, totam iste provident officiis nisi voluptate?
+              Duo Project together with Frankie Funk - Two guys on a funky
+              mission!
             </p>
-            <a href="#" class="link-arrow">TWITCH</a>
-            <a href="#" class="link-arrow">SPOTIFY</a>
-            <a href="#" class="link-arrow">YouTube</a>
+            <a
+              href="https://www.instagram.com/90milesmusic/"
+              class="link-arrow"
+              target="_blank"
+              >Instagram</a
+            >
+            <a
+              href="https://open.spotify.com/artist/1PclBjYMDv5llwo1JmTooN?si=DdFCNdV9T1SCb7bIFs-Uxg"
+              class="link-arrow"
+              target="_blank"
+              >SPOTIFY</a
+            >
           </div>
         </div>
         <div class="media">
@@ -229,39 +303,47 @@
         <div class="media-info">
           <div class="media__image">
             <svg class="icon icon--primary">
-              <use xlink:href="images/sprite.svg#wordpress"></use>
+              <use xlink:href="images/sprite.svg#Out_Line"></use>
             </svg>
           </div>
           <div class="media__body">
-            <h3 class="media__title">dain.</h3>
+            <h3 class="media__title">Toyou - STOPPED 2020</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta aut
-              expedita perferendis vel perspiciatis, dolorum quidem neque alias
-              necessitatibus, totam iste provident officiis nisi voluptate?
+              Toyou is the EDM alias of " dain. " - mainly focusing on BassHouse
+              and other club music! Its unclear if this project will ever be
+              revived!
             </p>
-            <a href="#" class="link-arrow">TWITCH</a>
-            <a href="#" class="link-arrow">SPOTIFY</a>
-            <a href="#" class="link-arrow">YouTube</a>
+            <a
+              href="https://open.spotify.com/artist/3dNmdZN1skt8fVuLMDECwl?si=rZ6yoyV8Tp-fYFVgXNL3kA"
+              class="link-arrow"
+              target="_blank"
+              >SPOTIFY</a
+            >
           </div>
         </div>
       </article>
     </section>
-    <section class="block block--primary block--skewed-left">
+    <section id="download" class="block block--primary block--skewed-left">
       <header class="block__header block-download__header">
         <h2>DOWNLOAD AND SOCIALS</h2>
       </header>
       <div class="container grid grid--1x2 download">
-        <img class="download__image" src="images/DL.png" alt="Download Icon" />
+        <a href="index.html"
+          ><img class="download__image" src="images/DL.png" alt="Download Icon"
+        /></a>
         <p class="download__p">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus
-          culpa nesciunt dolorum alias labore reprehenderit maxime aspernatur
-          est cupiditate. Excepturi!<br />
-          <a href="#" class="link-arrow">BandCamp</a>
-          <a href="#" class="link-arrow">KoFi</a>
+          Feel free to download and use my music as “dain.” for free in your
+          content! Just make sure to credit me. You can purchase it on BandCamp
+          or download it for free on Ko-Fi, where you also have the option to
+          leave a donation if you’d like to support my work! <br />
+          <a href="https://dainsounds.bandcamp.com/" class="link-arrow"
+            >BandCamp (dain.)</a
+          >
+          <a href="index.html" class="link-arrow">Ko-Fi (In Works)</a>
         </p>
       </div>
     </section>
-    <section class="block container" data-aos="zoom-in">
+    <section id="about" class="block container" data-aos="zoom-in">
       <div class="card">
         <div class="grid grid--1x2">
           <img
@@ -273,9 +355,9 @@
           <blockquote class="quote">
             <h2>ABOUT ME</h2>
             <p class="quote__text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-              similique, nemo nulla quisquam perspiciatis beatae. Eius repellat
-              sint architecto asperiores?
+              I love creative work—music production has always been a passion of
+              mine. Currently, I’m focused on Synthwave, aiming to create music
+              that people truly enjoy!
             </p>
             <footer>
               <h3 class="quote__name">Alexander Panske</h3>
@@ -297,7 +379,12 @@
           <div class="collapsible__content">
             <ul class="list">
               <li><a href="#">Impressum</a></li>
-              <li><a href="#">Contact / Mail</a></li>
+              <li>
+                <a
+                  href="mailto:officialdain.music@gmail.com?subject=Hello%20There&body=I%20wanted%20to%20reach%20out!"
+                  >Contact / Mail</a
+                >
+              </li>
             </ul>
           </div>
         </section>
@@ -310,10 +397,28 @@
           </header>
           <div class="collapsible__content">
             <ul class="list">
-              <li><a href="#">Twitch</a></li>
-              <li><a href="#">Bluesky</a></li>
-              <li><a href="#">Instagram</a></li>
-              <li><a href="#">YouTube</a></li>
+              <li>
+                <a href="https://www.twitch.tv/dain_sounds" target="_blank"
+                  >Twitch</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://bsky.app/profile/dainsounds.nohit.club"
+                  target="_blank"
+                  >Bluesky</a
+                >
+              </li>
+              <li>
+                <a href="https://www.instagram.com/dain.sounds/" target="_blank"
+                  >Instagram</a
+                >
+              </li>
+              <li>
+                <a href="https://www.youtube.com/@dain_sounds" target="_blank"
+                  >YouTube</a
+                >
+              </li>
             </ul>
           </div>
         </section>
@@ -326,15 +431,33 @@
           </header>
           <div class="collapsible__content">
             <ul class="list">
-              <li><a href="#">KoFi</a></li>
-              <li><a href="#">Bandcamp</a></li>
-              <li><a href="#">Amazon</a></li>
-              <li><a href="#">Apple Music</a></li>
+              <li><a href="index.html" target="_blank">KoFi</a></li>
+              <li>
+                <a href="https://dainsounds.bandcamp.com/" target="_blank"
+                  >Bandcamp</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.amazon.de/music/player/artists/B091XWXKTN/dain"
+                  target="_blank"
+                  >Amazon</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://music.apple.com/de/artist/dain/1561849272"
+                  target="_blank"
+                  >Apple Music</a
+                >
+              </li>
             </ul>
           </div>
         </section>
         <section class="footer__brand">
-          <img class="footer__img" src="images/waiting_dain.png" alt="" />
+          <a href="#hero"
+            ><img class="footer__img" src="images/waiting_dain.png" alt=""
+          /></a>
           <p class="footer__copyright">Made with &#60;3 by dain.</p>
         </section>
       </div>
