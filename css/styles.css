@@ -336,7 +336,7 @@ color:#86ffd5;
     }
 
 .block--cards .grid {
-    gap: 8rem 3.3rem;
+    gap: 8rem 2.5rem;
 }
 
 .block--cards .card {
@@ -735,6 +735,11 @@ background: var(--color-background);
 .download__image {
     width: 100%;
     max-width: 300px;
+    transition: transform 0.5s;
+}
+
+.download__image:hover {
+    transform: scale(1.1);
 }
 
 /* FOOTER */
